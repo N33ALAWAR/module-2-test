@@ -1,0 +1,35 @@
+p {
+  padding: 10px;
+  text-align: center;
+  color: blue;
+}
+div.new img {
+  height: 300px;
+  width: 300px;
+}
+div.tree p {
+  height: 300px;
+  width: 300px;
+  background-image: url("module-2-test/images/tree.jpg");
+  color: red;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+}
+{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: flex;
+}
